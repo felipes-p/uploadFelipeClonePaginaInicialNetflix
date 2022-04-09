@@ -1,0 +1,110 @@
+* {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    Font-family: 'Open Sans',
+        sans-serif;
+}
+
+.bodycorp {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    gap: 30px;
+    margin-top: 120px;
+    flex-wrap: wrap;
+
+}
+
+.item1 {
+    color: white;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    box-sizing: border-box;
+    background-color: gray;
+
+
+}
+
+.item2 {
+    color: white;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background-color: gray;
+}
+
+.item3 {
+    color: white;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background-color: gray;
+
+}
+
+.item4 {
+    color: white;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background-color: gray;
+
+}
+
+.Nomes {
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Nome1 {
+    position: absolute;
+    left: 340px;
+}
+
+.Nome2 {
+    position: absolute;
+    left: 553px;
+}
+
+.Nome3 {
+    position: absolute;
+    left: 760px;
+}
+
+.Nome4 {
+    position: absolute;
+    left: 975px;
+}
+
+button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 3mm 3mm;
+    -webkit-appearance: none;
+    background-color: rgb(49, 43, 43);
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    transition: transform ease-in 0.1s, box-shadow: ease-in 0.25s;
+    box-shadow: 0px 1px 20px rgb(228, 34, 34);
+    margin-top: 100px;
+    margin-left: 590px;
+}
